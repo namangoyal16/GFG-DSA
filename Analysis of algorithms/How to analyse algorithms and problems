@@ -1,1 +1,2 @@
-
+Different programs may produce the same output for a given input, but they can have different time complexities. 
+This can depend on system and computer performance, as well as on the actual time each program takes to solve the problem.
