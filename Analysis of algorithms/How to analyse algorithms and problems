@@ -26,3 +26,9 @@ make recursive tree for any kind of recursive problem and analyze it thoroughly.
 taking place.
 
 REMEMBER ONE SIMPLE RULE : ALWAYS THINK OF NO OF OPERATIONS RUNNING TO SOLVE THE PROBLEM AND THEN YOU WILL BE ABLE TO THINK ABOUT THE TIME COMPLEXITY.
+
+SPACE COMPLEXITY : AUXILLARY SPACE + INPUT SPACE,
+Input space  is the space taken to store the input which is constant and not in our hands.
+but still we can optimize input space as we do in adjacency list in graphs.
+Auxillary space is the extra space required to calculate the output using the input.
+This space is completely in our hands as it depends on us how intelligently we solve our problem without taking any unnecessary extra space.
