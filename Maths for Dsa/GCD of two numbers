@@ -29,8 +29,8 @@ int main(){
 // this approach uses euclid divison lemma , in which let say b is greater than a , if a is able to divide b then a is the gcd .
 otherwise take the remainder of [b%a] and make it as divisor and a as dividend and continue it upto when you get result.
 
-TIME COMPLEXITY:O(n);
-Space complexity:O(n);
+TIME COMPLEXITY:O(logn);
+Space complexity:O(logn);
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
