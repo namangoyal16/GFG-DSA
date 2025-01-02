@@ -35,3 +35,8 @@ int main(){
 Time complexity : O(logn) as we are iterating over the length of the number once.
 Space complexity : O(1)+O(1)==O(1) as we are requiring two extra variables of constant space to solve the problem.
 
+// BRUTE FORCE APPROACH :
+
+STORE THE DIGITS IN AN ARRAY AND TAKE TWO POINTERS , ONE FROM START AND ONE FROM END AND CHECK WHETHER BOTH POINTERS HAVE SAME VALUE AND THEN ITERATE;
+BUT IT WILL HAVE AN EXTRA SPACE COMPLEXITY OF O(N) BY STORING THE NUMBER WHICH IS BAD.
+
