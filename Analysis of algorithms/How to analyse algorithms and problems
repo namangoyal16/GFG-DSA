@@ -6,3 +6,6 @@ for(int i=1;i<n;i=i*2)  has time complexity of O(logn);
 for(int i=1;i<n;i=pow(i,c)) has time complexity of O(loglogn);
 
 Analyse time complexities using permutation and combinations which you learnt in class 11.
+
+for complex algorithms :
+such as DFS, BFS and merging of two sorted arrays , time complexities depend on two inputs , we will analyse time complexities of such algorithms also.
