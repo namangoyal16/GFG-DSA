@@ -22,8 +22,8 @@ make recursive tree for any kind of recursive problem and analyze it thoroughly.
 //T(n)=2T(n/2)+C has time complexity of O(n);
 //T(n)=2T(n-1)+C has time complexity of O(2^n);
 //T(n)=T(n/2)+C has time complexity of O(logn);
-//T(N)=T(n/4)+T(n/2)+Cn has time complexity of same as 2T(n/2)+Cn ---consider upper bound only , that is the worst case. therefore,TC==O(n*n)====>becoz, in every function call , n operations are
-taking place.
+//T(N)=T(n/4)+T(n/2)+Cn has time complexity of same as 2T(n/2)+Cn ---consider upper bound only , that is the worst case. therefore,TC==O(n*n)====>becoz, in every function call ,
+n operations are taking place.
 
 REMEMBER ONE SIMPLE RULE : ALWAYS THINK OF NO OF OPERATIONS RUNNING TO SOLVE THE PROBLEM AND THEN YOU WILL BE ABLE TO THINK ABOUT THE TIME COMPLEXITY.
 
