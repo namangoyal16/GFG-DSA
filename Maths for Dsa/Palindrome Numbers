@@ -31,3 +31,7 @@ int main(){
 	cout<<check_palindrome(n);
 	return 0;
 }
+
+Time complexity : O(logn) as we are iterating over the length of the number once.
+Space complexity : O(1)+O(1)==O(1) as we are requiring two extra variables of constant space to solve the problem.
+
