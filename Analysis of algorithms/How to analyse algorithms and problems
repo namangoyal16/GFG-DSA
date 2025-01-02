@@ -1,2 +1,8 @@
 Different programs may produce the same output for a given input, but they can have different time complexities. 
 This can depend on system and computer performance, as well as on the actual time each program takes to solve the problem.
+
+for(int i=1;i<n;i++)  has time complexity of O(n);
+for(int i=1;i<n;i=i*2)  has time complexity of O(logn);
+for(int i=1;i<n;i=pow(i,c)) has time complexity of O(loglogn);
+
+Analyse time complexities using permutation and combinations which you learnt in class 11.
