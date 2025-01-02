@@ -9,3 +9,6 @@ Analyse time complexities using permutation and combinations which you learnt in
 
 for complex algorithms :
 such as DFS, BFS and merging of two sorted arrays , time complexities depend on two inputs , we will analyse time complexities of such algorithms also.
+
+for recursion write recurrence relations , and then solve them to analyze time complexities of those relations.
+one other way to analyze time complexity of recursion is that , remember : how many times functions called*in each function how many operations are taking place
