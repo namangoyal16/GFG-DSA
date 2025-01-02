@@ -17,5 +17,5 @@ int main(){
 	return 0;
 }
 
-// time complexity : O(n)   ==> the loop runs for the length og the number .
+// time complexity : O(logn)   ==> the loop runs for the length of the digits of the number .
 // Space complexity: O(1)   ==> we require no extra space to solve the problem.
