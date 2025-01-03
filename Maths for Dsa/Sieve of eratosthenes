@@ -1,7 +1,7 @@
 Sieve of Erathosenes is a concept to check prime numbers and eliminate it's multiples because they ofcourse cannot be prime.
 
 Here it checks for the first prime number , eliminate its multiples .
-then check another multiple and eliminate its multiples continuously , in this manner we get many numbers eliminated before hand.
+then check another prime numbers and eliminate its multiples continuously , in this manner we get many numbers eliminated before hand.
 
 CODE:
 
