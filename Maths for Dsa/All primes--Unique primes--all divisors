@@ -95,3 +95,39 @@ int main(){
 	}
 	return 0;
 }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The problem statement is calculate divisor and its power ,
+
+CODE:
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int n;
+	cin>>n;
+
+	vector<pair<int,int>>prime_power;
+
+	for(int i=2;i*i<=n;i++){
+		int count_of_divisor=0;
+		while(n%i==0){
+            count_of_divisor++;
+            n=n/i;
+		}
+		if(count_of_divisor!=0){
+			prime_power.push_back({i,count_of_divisor});
+		}
+	}
+
+	if(n>1){
+		prime_power.push_back({n,1});
+	}
+
+	for(auto ele : prime_power){
+		cout<<ele.first<<" the power is: "<<ele.second<<endl;
+	}
+	return 0;
+}
+
+// this vector stores prime_divisor and its power.
