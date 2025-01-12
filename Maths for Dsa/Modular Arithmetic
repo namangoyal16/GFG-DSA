@@ -1,0 +1,21 @@
+Modualr arithmetic is mathematical technique to deal with remainders.
+
+Always remember that when we divide Dividend/divisor , the Remainder will always be surely less than the divisor and this is the keyconcept for Modular Arithmetic.
+
+A ≡ B(mod M) means when A is divide by m it leaves a remainder of b.
+
+There are some rules , which are needed to be remembered for Modular Arithmetic.  // Usually we keep M=1e9+7; 1e9 because it is the range of int and +7 becase it makes it prime which is needed
+for "FERMAT LITTLE THOREM".
+
+
+#Modular addition: 
+(A+B) % M =(A % M + B % M) % M.
+
+Modular Multiplication:
+(A*B) % M =(A % M * B % M) % M.
+
+Modular Divison:
+(A/B) % M = (A * inverse of B if it exists) % M.
+
+#Modular inverse of a number.
+
