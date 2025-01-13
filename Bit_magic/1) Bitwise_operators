@@ -20,6 +20,7 @@ x<<y is equivalent to multiplying by 2^y.
 
 remember in the system which we use 0_____ is positive number , 1_____ is negitive number.
 to find binary of a negitive number , first find binary of positive number , toggle all bits(1->0 and 0->1) and just add 1 next. you will get binary of your negitive number.
+for reversing just do -1 and reverse toggle the bits. you will get binary representation of original positive number.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
