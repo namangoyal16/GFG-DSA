@@ -29,6 +29,8 @@ because when 4*3 is divided by 11 , the remainder obtained is 1.
 we will use Fermats little theorem , for m being a prime number and __gcd(a,m)=1.
 a^m−1 ≡ 1(mod m).
 therefore for a , its modular inverse is (a^m-2)mod m;
+
+we will use Extended Euclid Algorithm , for m not being a prime number .
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #Modular exponentiation:
