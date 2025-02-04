@@ -1,4 +1,4 @@
-We have to check whether a number is prime or not.\
+We have to check whether a number is prime or not.
 
 Simple solution :
 
