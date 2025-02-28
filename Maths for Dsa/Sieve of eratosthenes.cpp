@@ -1,7 +1,7 @@
-Sieve of Erathosenes is a concept to check prime numbers and eliminate it's multiples because they ofcourse cannot be prime.
+// Sieve of Erathosenes is a concept to check prime numbers and eliminate it's multiples because they ofcourse cannot be prime.
 
-Here it checks for the first prime number , eliminate its multiples .
-then check another prime numbers and eliminate its multiples continuously , in this manner we get many numbers eliminated before hand.
+// Here it checks for the first prime number , eliminate its multiples .
+// then check another prime numbers and eliminate its multiples continuously , in this manner we get many numbers eliminated before hand.
 
 CODE:
 
@@ -40,6 +40,6 @@ space complexity ===>O(1);
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Sieve of Erathosenes also help in finding out lowest prime factor and highest prime factor easily.
-In majority of number theory questions , this step act as preliminary step to solve further more complex problems.
-It is must for number theory problems.
+// Sieve of Erathosenes also help in finding out lowest prime factor and highest prime factor easily.
+// In majority of number theory questions , this step act as preliminary step to solve further more complex problems.
+// It is must for number theory problems.
