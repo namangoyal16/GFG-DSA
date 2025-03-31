@@ -41,3 +41,52 @@ int main(){
 }
 
 // Time complexity of the code is : O(2^n * n ) , we caanot achieve better time complexity than this time complexity to solve the problem .
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void generate_subsets(vector<int> & arr, vector<vector<int>>&result , int index , vector<int>&temp_result){
+
+if(index==arr.size()){
+    result.push_back(temp_result);
+    return;
+}
+ 
+ temp_result.push_back(arr[index]);
+ generate_subsets(arr,result,index+1,temp_result);
+ temp_result.pop_back();
+ 
+ generate_subsets(arr,result,index+1,temp_result);
+
+}
+
+int main(){
+
+    int n;
+    cin>>n;
+
+    vector<int>input(n);
+
+    for(int i=0;i<n;i++){
+        cin>>input[i];
+    }
+
+    vector<vector<int>> result;
+    vector<int>temp_result;
+
+    generate_subsets(input,result,0,temp_result);
+
+     cout << "Subsets:\n";
+    for (const auto &subset : result) {
+        cout << "{ ";
+        for (int num : subset) {
+            cout << num << " ";
+        }
+        cout << "}\n";
+    }
+    
+
+    return 0;
+}
+
+// we also use this code and it has the same time complexity as of the above bit manipulation code but it uses backtracking to find the subsets .
