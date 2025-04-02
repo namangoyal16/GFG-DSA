@@ -7,3 +7,5 @@ Another method to visualize Recusrion is ....believe in the function .... believ
 Do not try to  Visualize the complete codebbase out there , just remember one thing that trust is important.
 
 Never fail to understand the base case properly , always write the correct base case and what will happen when that base condition will be executed , you will get the correct result.
+
+The time Complexity for the Recursion is how many times the function is called * time complexity of each function.
