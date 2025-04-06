@@ -53,7 +53,7 @@ int main(){
 
     int ans = noOfSubsets(arr,k,0,temp_arr);
 
-   // cout<<ans;
+   // cout<<ans; if we widh to print answers we can also do that how many subsets will be printed here.
 
     return 0;
 }
