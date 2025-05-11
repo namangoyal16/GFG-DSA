@@ -10,3 +10,5 @@ there is multiset also which can store multiple values in a set in O(logn) time 
 There are avl trees and red black trees which are binary search trees and they are also used for searching nearest keys and nearest values .
 
 Hashing is only useful if we are inserted only in searching deletion and insertion and we are not interested in searching nearest values or points.
+
+For Prefix Searching we have Trie data structure.
