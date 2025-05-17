@@ -54,7 +54,7 @@ int main(){
          j++;
          if(j==s2.size()){
            result.push_back(i-j+1);
-           j=0;
+           j=lps[j-1];
          }
       }
       else{
