@@ -24,7 +24,7 @@ int main(){
          j++;
       }
       else{
-        i=mp[s[j]]+1;
+        i=max(i,mp[s[j]]+1);
         mp.erase(mp.find(s[j]));
       }
    }
